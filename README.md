@@ -7,8 +7,7 @@ for you to obtain the results presented in the article.
 
 # Firstly, let us address the files that users need to run.
 
-The main folder, where the README file is located, 
-stores all the primary code that the user needs to run. These include:
+The main folder, where the README file is located, stores all the primary code that the user needs to run. These include:
 
 ## 1. Main_Machine.py
 
