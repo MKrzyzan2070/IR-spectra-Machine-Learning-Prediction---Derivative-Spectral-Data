@@ -28,7 +28,7 @@ However, it's important to note that the code itself is stored in the Results_An
 Now, let's delve into the individual folders and their contents:
 
 1. Downloading the spectral data from NIST
-Downloading the spectral data from NIST takes a while, so the All_the_IR is already provided to eliminate wait times. 
+Downloading the spectral data from NIST takes a while, so the All_the_IR is already provided to eliminate the waiting time. 
 The species.txt file is essential and must be present in the folder as it contains the names of the compounds and their CAS numbers. 
 To create a new All_the_IR file, users can run the download.py script.
 
