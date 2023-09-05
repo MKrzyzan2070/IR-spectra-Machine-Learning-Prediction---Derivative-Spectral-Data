@@ -1,0 +1,77 @@
+{
+                      "Aromatic": [
+                                            "[$([cX3](:*):*),$([cX2+](:*):*)]"
+                      ],
+                      "Aromatic nitrogen": [
+                                            "[$([n](:*):*)]"
+                      ],
+                      "Aromatic halogen": [
+                                            "[$([cX3](:*):*),$([cX2+](:*):*)]F",
+                                            "[$([cX3](:*):*),$([cX2+](:*):*)]Cl",
+                                            "[$([cX3](:*):*),$([cX2+](:*):*)]Br",
+                                            "[$([cX3](:*):*),$([cX2+](:*):*)]I"
+                      ],
+                      "Aromatic ether": [
+                                            "[$([cX3](:*):*),$([cX2+](:*):*)]OC"
+                      ],
+                      "Aromatic ketone": [
+                                            "[$([cX3](:*):*),$([cX2+](:*):*)]CC(=O)"
+                      ],
+                      "Hydroxyl": [
+                                            "[#6][OX2H]"
+                      ],
+                      "Carboxylic acid": [
+                                            "[CX3](=O)[OX2H1]"
+                      ],
+                      "Acyl Halide": [
+                                            "O=CBr",
+                                            "O=CCl",
+                                            "O=CF",
+                                            "O=CI"
+                      ],
+                      "Alkane": [
+                                            "CC"
+                      ],
+                      "Alkene": [
+                                            "C=C"
+                      ],
+                      "Alkyne": [
+                                            "C#C"
+                      ],
+                      "Amide": [
+                                            "NC=O"
+                      ],
+                      "Carbonyl": [
+                                            "C=O"
+                      ],
+                      "Ester": [
+                                            "O=CO"
+                      ],
+                      "Imine": [
+                                            "C=N"
+                      ],
+                      "Nitrile": [
+                                            "C#N"
+                      ],
+                      "Nitro": [
+                                            "N=O"
+                      ],
+                      "Non-aromatic Ether": [
+                                            "COC"
+                      ],
+                      "Non-aromatic Halide": [
+                                            "CBr",
+                                            "CCl",
+                                            "CF",
+                                            "CI"
+                      ],
+                      "Non-aromatic Ketone": [
+                                            "CC(C)=O"
+                      ],
+                      "Sulphur oxide": [
+                                            "O=S"
+                      ],
+                      "Sulphur": [
+                                            "S"
+                      ]
+}

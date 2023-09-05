@@ -1,0 +1,1643 @@
+#############################################################################
+Aromatic
+The scoring method for determining the best parameters was f1 scoring
+Grid best score: 0.9622731744621399
+Grid best parameter: {'C': 1, 'gamma': 'scale'}
+
+The scores for train set:
+[[2597   83]
+ [  94 3504]]
+accuracy score is: 0.9718063077413189
+precision score is: 0.9768608865347087
+recall score is: 0.9738743746525848
+f1 score is: 0.975365344467641
+roc_auc score is: 0.9942683746359917
+average_precision score is: 0.9955779521535806
+
+The scores for test set:
+[[ 860   34]
+ [  39 1160]]
+accuracy score is: 0.965121834687052
+precision score is: 0.9715242881072027
+recall score is: 0.9674728940783986
+f1 score is: 0.9694943585457585
+roc_auc score is: 0.9913052077327676
+average_precision score is: 0.9933150693196162
+
+The dummies scores on test set:
+The most_frequent dummy:
+[[   0  894]
+ [   0 1199]]
+accuracy score is: 0.5728619206880077
+precision score is: 0.5728619206880077
+recall score is: 1.0
+f1 score is: 0.7284325637910085
+roc_auc score is: No probability available
+average_precision score is: No probability available
+The stratified dummy:
+[[348 546]
+ [495 704]]
+accuracy score is: 0.502627806975633
+precision score is: 0.5632
+recall score is: 0.5871559633027523
+f1 score is: 0.5749285422621478
+roc_auc score is: No probability available
+average_precision score is: No probability available
+The uniform dummy:
+[[453 441]
+ [583 616]]
+accuracy score is: 0.5107501194457716
+precision score is: 0.5827814569536424
+recall score is: 0.5137614678899083
+f1 score is: 0.5460992907801419
+roc_auc score is: No probability available
+average_precision score is: No probability available
+
+The Cross validation:
+accuracy:
+[0.9552131852382658, 0.9587813620071685, 0.9580645161290322]
+precision:
+[0.9606495940037476, 0.96571072319202, 0.96125]
+recall:
+[0.9693558474046279, 0.9580988117573483, 0.9693558474046279]
+f1:
+[0.9599248591108327, 0.9608452454940958, 0.9709102283390678]
+roc_auc:
+[0.9913914317253653, 0.9882409713459661, 0.98820789021686]
+average_precision:
+[0.9944334841325604, 0.988191159063961, 0.9925712371918095]
+
+
+The number of ones: 4797
+The number of zeros: 3574
+Total number of molecules: 8371
+The imbalance ratio: 0.745048988951428
+#############################################################################
+Aromatic nitrogen
+The scoring method for determining the best parameters was f1 scoring
+Grid best score: 0.38500241098722304
+Grid best parameter: {'C': 1, 'gamma': 'scale'}
+
+The scores for train set:
+[[3872    9]
+ [ 240  191]]
+accuracy score is: 0.9422541743970315
+precision score is: 0.955
+recall score is: 0.4431554524361949
+f1 score is: 0.6053882725832014
+roc_auc score is: 0.9693919033234073
+average_precision score is: 0.8645675930312241
+
+The scores for test set:
+[[1289    5]
+ [  95   49]]
+accuracy score is: 0.9304589707927677
+precision score is: 0.9074074074074074
+recall score is: 0.3402777777777778
+f1 score is: 0.49494949494949503
+roc_auc score is: 0.9386806628885455
+average_precision score is: 0.7149680636049832
+
+The dummies scores on test set:
+The most_frequent dummy:
+[[1294    0]
+ [ 144    0]]
+accuracy score is: 0.8998609179415855
+precision score is: 0.0
+recall score is: 0.0
+f1 score is: 0.0
+roc_auc score is: No probability available
+average_precision score is: No probability available
+The stratified dummy:
+[[1158  136]
+ [ 126   18]]
+accuracy score is: 0.8178025034770514
+precision score is: 0.11688311688311688
+recall score is: 0.125
+f1 score is: 0.12080536912751678
+roc_auc score is: No probability available
+average_precision score is: No probability available
+The uniform dummy:
+[[641 653]
+ [ 62  82]]
+accuracy score is: 0.5027816411682893
+precision score is: 0.11156462585034013
+recall score is: 0.5694444444444444
+f1 score is: 0.18657565415244595
+roc_auc score is: No probability available
+average_precision score is: No probability available
+
+The Cross validation:
+accuracy:
+[0.9290558163797601, 0.92018779342723, 0.9222338204592901]
+precision:
+[0.8636363636363636, 0.8823529411764706, 0.8055555555555556]
+recall:
+[0.3125, 0.3125, 0.3717277486910995]
+f1:
+[0.4461538461538461, 0.4649446494464945, 0.46494464944649444]
+roc_auc:
+[0.9248278985507247, 0.9036533816425121, 0.9004234008650125]
+average_precision:
+[0.6765796245905114, 0.7055541797427519, 0.6439427963543857]
+
+
+The number of ones: 575
+The number of zeros: 7796
+Total number of molecules: 8371
+The imbalance ratio: 0.1111111111111111
+#############################################################################
+Aromatic halogen
+The scoring method for determining the best parameters was f1 scoring
+Grid best score: 0.7089185562813197
+Grid best parameter: {'C': 1, 'gamma': 'scale'}
+
+The scores for train set:
+[[5215   62]
+ [ 286  715]]
+accuracy score is: 0.944568333864288
+precision score is: 0.9202059202059202
+recall score is: 0.7142857142857143
+f1 score is: 0.8042744656917885
+roc_auc score is: 0.9790259011407391
+average_precision score is: 0.9256806700326342
+
+The scores for test set:
+[[1732   27]
+ [ 133  201]]
+accuracy score is: 0.9235547061634019
+precision score is: 0.881578947368421
+recall score is: 0.6017964071856288
+f1 score is: 0.7153024911032029
+roc_auc score is: 0.9481341467150972
+average_precision score is: 0.845329636520012
+
+The dummies scores on test set:
+The most_frequent dummy:
+[[1759    0]
+ [ 334    0]]
+accuracy score is: 0.8404204491161013
+precision score is: 0.0
+recall score is: 0.0
+f1 score is: 0.0
+roc_auc score is: No probability available
+average_precision score is: No probability available
+The stratified dummy:
+[[1489  270]
+ [ 295   39]]
+accuracy score is: 0.7300525561395127
+precision score is: 0.1262135922330097
+recall score is: 0.11676646706586827
+f1 score is: 0.12130637636080871
+roc_auc score is: No probability available
+average_precision score is: No probability available
+The uniform dummy:
+[[846 913]
+ [167 167]]
+accuracy score is: 0.48399426660296224
+precision score is: 0.15462962962962962
+recall score is: 0.5
+f1 score is: 0.23620933521923618
+roc_auc score is: No probability available
+average_precision score is: No probability available
+
+The Cross validation:
+accuracy:
+[0.9183088498745969, 0.9268817204301075, 0.9218637992831541]
+precision:
+[0.8323170731707317, 0.8814102564102564, 0.8558282208588958]
+recall:
+[0.5842696629213483, 0.6134831460674157, 0.6337078651685393]
+f1:
+[0.7228607918263091, 0.7165354330708662, 0.71313672922252]
+roc_auc:
+[0.9583589566750005, 0.9473318799262117, 0.9576646462710525]
+average_precision:
+[0.8320308020878266, 0.8275420216843334, 0.8450994622822751]
+
+
+The number of ones: 1335
+The number of zeros: 7036
+Total number of molecules: 8371
+The imbalance ratio: 0.1897384877771461
+#############################################################################
+Aromatic ether
+The scoring method for determining the best parameters was f1 scoring
+Grid best score: 0.846482671924066
+Grid best parameter: {'C': 1, 'gamma': 'scale'}
+
+The scores for train set:
+[[5605   21]
+ [  90  562]]
+accuracy score is: 0.9823192099394712
+precision score is: 0.9639794168096055
+recall score is: 0.8619631901840491
+f1 score is: 0.9101214574898786
+roc_auc score is: 0.9927190857957904
+average_precision score is: 0.9639607101363465
+
+The scores for test set:
+[[1859   17]
+ [  33  184]]
+accuracy score is: 0.9761108456760631
+precision score is: 0.9154228855721394
+recall score is: 0.847926267281106
+f1 score is: 0.8803827751196173
+roc_auc score is: 0.9827680229530427
+average_precision score is: 0.93806201345488
+
+The dummies scores on test set:
+The most_frequent dummy:
+[[1876    0]
+ [ 217    0]]
+accuracy score is: 0.8963210702341137
+precision score is: 0.0
+recall score is: 0.0
+f1 score is: 0.0
+roc_auc score is: No probability available
+average_precision score is: No probability available
+The stratified dummy:
+[[1678  198]
+ [ 190   27]]
+accuracy score is: 0.8146201624462494
+precision score is: 0.12
+recall score is: 0.12442396313364056
+f1 score is: 0.12217194570135745
+roc_auc score is: No probability available
+average_precision score is: No probability available
+The uniform dummy:
+[[951 925]
+ [105 112]]
+accuracy score is: 0.5078834209268992
+precision score is: 0.10800385728061716
+recall score is: 0.5161290322580645
+f1 score is: 0.17862838915470494
+roc_auc score is: No probability available
+average_precision score is: No probability available
+
+The Cross validation:
+accuracy:
+[0.9695449659620208, 0.9716845878136201, 0.9770609318996416]
+precision:
+[0.9230769230769231, 0.934156378600823, 0.9291666666666667]
+recall:
+[0.7931034482758621, 0.7896551724137931, 0.8062283737024222]
+f1:
+[0.8550458715596331, 0.8708487084870848, 0.8419047619047618]
+roc_auc:
+[0.9803568227881261, 0.9867751724137931, 0.977918867055254]
+average_precision:
+[0.9467941602533128, 0.9196983564568526, 0.9100770710420816]
+
+
+The number of ones: 869
+The number of zeros: 7502
+Total number of molecules: 8371
+The imbalance ratio: 0.1158357771260997
+#############################################################################
+Aromatic ketone
+The scoring method for determining the best parameters was f1 scoring
+Grid best score: 0.6015232179828454
+Grid best parameter: {'C': 1, 'gamma': 'scale'}
+
+The scores for train set:
+[[1334    9]
+ [  60   89]]
+accuracy score is: 0.9537533512064343
+precision score is: 0.9081632653061225
+recall score is: 0.5973154362416108
+f1 score is: 0.7206477732793521
+roc_auc score is: 0.9822544938457924
+average_precision score is: 0.873319848607263
+
+The scores for test set:
+[[444   4]
+ [ 26  24]]
+accuracy score is: 0.9397590361445783
+precision score is: 0.8571428571428571
+recall score is: 0.48
+f1 score is: 0.6153846153846153
+roc_auc score is: 0.9279464285714285
+average_precision score is: 0.704455218943246
+
+The dummies scores on test set:
+The most_frequent dummy:
+[[448   0]
+ [ 50   0]]
+accuracy score is: 0.8995983935742972
+precision score is: 0.0
+recall score is: 0.0
+f1 score is: 0.0
+roc_auc score is: No probability available
+average_precision score is: No probability available
+The stratified dummy:
+[[419  29]
+ [ 44   6]]
+accuracy score is: 0.8534136546184738
+precision score is: 0.17142857142857143
+recall score is: 0.12
+f1 score is: 0.1411764705882353
+roc_auc score is: No probability available
+average_precision score is: No probability available
+The uniform dummy:
+[[234 214]
+ [ 23  27]]
+accuracy score is: 0.5240963855421686
+precision score is: 0.11203319502074689
+recall score is: 0.54
+f1 score is: 0.18556701030927836
+roc_auc score is: No probability available
+average_precision score is: No probability available
+
+The Cross validation:
+accuracy:
+[0.9322289156626506, 0.9351432880844646, 0.9366515837104072]
+precision:
+[0.7575757575757576, 0.8918918918918919, 0.8235294117647058]
+recall:
+[0.43283582089552236, 0.5303030303030303, 0.3939393939393939]
+f1:
+[0.62, 0.5252525252525253, 0.6226415094339622]
+roc_auc:
+[0.9330733268331708, 0.9332267397594031, 0.9132785137810263]
+average_precision:
+[0.6894141181314498, 0.7158322336205583, 0.6818064450741737]
+
+
+The number of ones: 199
+The number of zeros: 8172
+Total number of molecules: 8371
+The imbalance ratio: 0.1111111111111111
+#############################################################################
+Hydroxyl
+The scoring method for determining the best parameters was f1 scoring
+Grid best score: 0.7985798509564639
+Grid best parameter: {'C': 1, 'gamma': 'scale'}
+
+The scores for train set:
+[[4803   99]
+ [ 284 1092]]
+accuracy score is: 0.9389933099713285
+precision score is: 0.9168765743073047
+recall score is: 0.7936046511627907
+f1 score is: 0.8507985975847292
+roc_auc score is: 0.9736797628874785
+average_precision score is: 0.9258650032273632
+
+The scores for test set:
+[[1595   39]
+ [ 125  334]]
+accuracy score is: 0.9216435738174868
+precision score is: 0.8954423592493298
+recall score is: 0.7276688453159041
+f1 score is: 0.8028846153846154
+roc_auc score is: 0.9469364245086039
+average_precision score is: 0.8823264245516542
+
+The dummies scores on test set:
+The most_frequent dummy:
+[[1634    0]
+ [ 459    0]]
+accuracy score is: 0.780697563306259
+precision score is: 0.0
+recall score is: 0.0
+f1 score is: 0.0
+roc_auc score is: No probability available
+average_precision score is: No probability available
+The stratified dummy:
+[[1317  317]
+ [ 351  108]]
+accuracy score is: 0.6808408982322026
+precision score is: 0.2541176470588235
+recall score is: 0.23529411764705882
+f1 score is: 0.24434389140271492
+roc_auc score is: No probability available
+average_precision score is: No probability available
+The uniform dummy:
+[[825 809]
+ [223 236]]
+accuracy score is: 0.5069278547539418
+precision score is: 0.22583732057416267
+recall score is: 0.514161220043573
+f1 score is: 0.3138297872340426
+roc_auc score is: No probability available
+average_precision score is: No probability available
+
+The Cross validation:
+accuracy:
+[0.9236832676460051, 0.9193548387096774, 0.921146953405018]
+precision:
+[0.9126819126819127, 0.8863636363636364, 0.8831967213114754]
+recall:
+[0.7287581699346405, 0.7266775777414075, 0.7320261437908496]
+f1:
+[0.8085106382978724, 0.8064228367528992, 0.7959558823529411]
+roc_auc:
+[0.9486336449831577, 0.9478949862885495, 0.9555567559132621]
+average_precision:
+[0.8874135343445718, 0.8838527599593602, 0.873480704379336]
+
+
+The number of ones: 1835
+The number of zeros: 6536
+Total number of molecules: 8371
+The imbalance ratio: 0.2807527539779682
+#############################################################################
+Carboxylic acid
+The scoring method for determining the best parameters was f1 scoring
+Grid best score: 0.8831012692211415
+Grid best parameter: {'C': 1, 'gamma': 'scale'}
+
+The scores for train set:
+[[3261   33]
+ [  42  324]]
+accuracy score is: 0.9795081967213115
+precision score is: 0.907563025210084
+recall score is: 0.8852459016393442
+f1 score is: 0.8962655601659751
+roc_auc score is: 0.9906577947651136
+average_precision score is: 0.9326625064434558
+
+The scores for test set:
+[[1087   11]
+ [  17  105]]
+accuracy score is: 0.9770491803278688
+precision score is: 0.9051724137931034
+recall score is: 0.860655737704918
+f1 score is: 0.8823529411764706
+roc_auc score is: 0.9858087730299502
+average_precision score is: 0.9061275407059304
+
+The dummies scores on test set:
+The most_frequent dummy:
+[[1098    0]
+ [ 122    0]]
+accuracy score is: 0.9
+precision score is: 0.0
+recall score is: 0.0
+f1 score is: 0.0
+roc_auc score is: No probability available
+average_precision score is: No probability available
+The stratified dummy:
+[[994 104]
+ [114   8]]
+accuracy score is: 0.8213114754098361
+precision score is: 0.07142857142857142
+recall score is: 0.06557377049180328
+f1 score is: 0.06837606837606838
+roc_auc score is: No probability available
+average_precision score is: No probability available
+The uniform dummy:
+[[539 559]
+ [ 84  38]]
+accuracy score is: 0.47295081967213115
+precision score is: 0.06365159128978225
+recall score is: 0.3114754098360656
+f1 score is: 0.10570236439499306
+roc_auc score is: No probability available
+average_precision score is: No probability available
+
+The Cross validation:
+accuracy:
+[0.9797172710510141, 0.972341733251383, 0.9797047970479705]
+precision:
+[0.9024390243902439, 0.89375, 0.9041095890410958]
+recall:
+[0.8588957055214724, 0.8711656441717791, 0.8765432098765432]
+f1:
+[0.8909657320872275, 0.8734177215189874, 0.8785046728971964]
+roc_auc:
+[0.9805684065841966, 0.9767466224144289, 0.9553523240909397]
+average_precision:
+[0.8981347531029378, 0.8571101255413186, 0.9071204538439909]
+
+
+The number of ones: 488
+The number of zeros: 7883
+Total number of molecules: 8371
+The imbalance ratio: 0.1111111111111111
+#############################################################################
+Acyl Halide
+The scoring method for determining the best parameters was f1 scoring
+Grid best score: 0.7766072092159048
+Grid best parameter: {'C': 1, 'gamma': 'scale'}
+
+The scores for train set:
+[[596   4]
+ [ 10  57]]
+accuracy score is: 0.9790104947526237
+precision score is: 0.9344262295081968
+recall score is: 0.8507462686567164
+f1 score is: 0.8906250000000001
+roc_auc score is: 0.9851990049751245
+average_precision score is: 0.9592773875904529
+
+The scores for test set:
+[[199   2]
+ [ 10  12]]
+accuracy score is: 0.9461883408071748
+precision score is: 0.8571428571428571
+recall score is: 0.5454545454545454
+f1 score is: 0.6666666666666665
+roc_auc score is: 0.9348710990502035
+average_precision score is: 0.8023933052975194
+
+The dummies scores on test set:
+The most_frequent dummy:
+[[201   0]
+ [ 22   0]]
+accuracy score is: 0.9013452914798207
+precision score is: 0.0
+recall score is: 0.0
+f1 score is: 0.0
+roc_auc score is: No probability available
+average_precision score is: No probability available
+The stratified dummy:
+[[174  27]
+ [ 18   4]]
+accuracy score is: 0.7982062780269058
+precision score is: 0.12903225806451613
+recall score is: 0.18181818181818182
+f1 score is: 0.1509433962264151
+roc_auc score is: No probability available
+average_precision score is: No probability available
+The uniform dummy:
+[[ 90 111]
+ [ 13   9]]
+accuracy score is: 0.4439461883408072
+precision score is: 0.075
+recall score is: 0.4090909090909091
+f1 score is: 0.1267605633802817
+roc_auc score is: No probability available
+average_precision score is: No probability available
+
+The Cross validation:
+accuracy:
+[0.9629629629629629, 0.9494949494949495, 0.9527027027027027]
+precision:
+[0.8, 0.8636363636363636, 0.8695652173913043]
+recall:
+[0.6, 0.6, 0.8275862068965517]
+f1:
+[0.75, 0.8, 0.7037037037037037]
+roc_auc:
+[0.9028714107365794, 0.9450686641697876, 0.9936717034741056]
+average_precision:
+[0.9318558555620267, 0.8142035239838488, 0.8330628862765936]
+
+
+The number of ones: 89
+The number of zeros: 8282
+Total number of molecules: 8371
+The imbalance ratio: 0.1111111111111111
+#############################################################################
+Alkane
+The scoring method for determining the best parameters was f1 scoring
+Grid best score: 0.9252638739975281
+Grid best parameter: {'C': 1, 'gamma': 'scale'}
+
+The scores for train set:
+[[1839  171]
+ [ 267 4001]]
+accuracy score is: 0.9302325581395349
+precision score is: 0.9590124640460211
+recall score is: 0.9374414245548266
+f1 score is: 0.9481042654028436
+roc_auc score is: 0.977647610121837
+average_precision score is: 0.9897215549275917
+
+The scores for test set:
+[[ 573   97]
+ [ 122 1301]]
+accuracy score is: 0.8953655040611562
+precision score is: 0.9306151645207439
+recall score is: 0.9142656359803233
+f1 score is: 0.9223679546260192
+roc_auc score is: 0.9581596584890026
+average_precision score is: 0.9782444267262705
+
+The dummies scores on test set:
+The most_frequent dummy:
+[[   0  670]
+ [   0 1423]]
+accuracy score is: 0.6798853320592451
+precision score is: 0.6798853320592451
+recall score is: 1.0
+f1 score is: 0.8094425483503982
+roc_auc score is: No probability available
+average_precision score is: No probability available
+The stratified dummy:
+[[223 447]
+ [484 939]]
+accuracy score is: 0.5551839464882943
+precision score is: 0.6774891774891775
+recall score is: 0.6598735066760365
+f1 score is: 0.668565325738697
+roc_auc score is: No probability available
+average_precision score is: No probability available
+The uniform dummy:
+[[322 348]
+ [698 725]]
+accuracy score is: 0.5002388915432394
+precision score is: 0.6756756756756757
+recall score is: 0.5094869992972593
+f1 score is: 0.5809294871794871
+roc_auc score is: No probability available
+average_precision score is: No probability available
+
+The Cross validation:
+accuracy:
+[0.8968111787889645, 0.8978494623655914, 0.9]
+precision:
+[0.9348986125933831, 0.9275439531166756, 0.9306078536847767]
+recall:
+[0.9109119662625198, 0.9261992619926199, 0.9066947812335266]
+f1:
+[0.923199152542373, 0.9225053078556263, 0.9260927152317882]
+roc_auc:
+[0.9552145209850949, 0.962286181812386, 0.9575040687216982]
+average_precision:
+[0.9790207812129073, 0.9763513224229059, 0.9832906351152655]
+
+
+The number of ones: 5691
+The number of zeros: 2680
+Total number of molecules: 8371
+The imbalance ratio: 0.4709189949042348
+#############################################################################
+Alkene
+The scoring method for determining the best parameters was f1 scoring
+Grid best score: 0.5859829040838538
+Grid best parameter: {'C': 1, 'gamma': 'scale'}
+
+The scores for train set:
+[[5369   31]
+ [ 416  462]]
+accuracy score is: 0.9287989805670596
+precision score is: 0.9371196754563894
+recall score is: 0.5261958997722096
+f1 score is: 0.673960612691466
+roc_auc score is: 0.9620861807137433
+average_precision score is: 0.87956879049762
+
+The scores for test set:
+[[1780   20]
+ [ 165  128]]
+accuracy score is: 0.9116101290014333
+precision score is: 0.8648648648648649
+recall score is: 0.43686006825938567
+f1 score is: 0.5804988662131519
+roc_auc score is: 0.9115168752370117
+average_precision score is: 0.7697022816658232
+
+The dummies scores on test set:
+The most_frequent dummy:
+[[1800    0]
+ [ 293    0]]
+accuracy score is: 0.8600095556617295
+precision score is: 0.0
+recall score is: 0.0
+f1 score is: 0.0
+roc_auc score is: No probability available
+average_precision score is: No probability available
+The stratified dummy:
+[[1558  242]
+ [ 241   52]]
+accuracy score is: 0.7692307692307693
+precision score is: 0.17687074829931973
+recall score is: 0.17747440273037543
+f1 score is: 0.17717206132879046
+roc_auc score is: No probability available
+average_precision score is: No probability available
+The uniform dummy:
+[[932 868]
+ [146 147]]
+accuracy score is: 0.515527950310559
+precision score is: 0.14482758620689656
+recall score is: 0.5017064846416383
+f1 score is: 0.22477064220183487
+roc_auc score is: No probability available
+average_precision score is: No probability available
+
+The Cross validation:
+accuracy:
+[0.9186671443926908, 0.917921146953405, 0.907168458781362]
+precision:
+[0.9120879120879121, 0.8861386138613861, 0.9015544041450777]
+recall:
+[0.4859335038363171, 0.4076923076923077, 0.4230769230769231]
+f1:
+[0.5749559082892416, 0.5410122164048865, 0.6471544715447154]
+roc_auc:
+[0.9158216112531967, 0.9161485042735044, 0.9242435897435899]
+average_precision:
+[0.765479046285662, 0.7879518686724878, 0.7730974925773112]
+
+
+The number of ones: 1171
+The number of zeros: 7200
+Total number of molecules: 8371
+The imbalance ratio: 0.1626388888888889
+#############################################################################
+Alkyne
+The scoring method for determining the best parameters was f1 scoring
+Grid best score: 0.6132435953104646
+Grid best parameter: {'C': 1, 'gamma': 'scale'}
+
+The scores for train set:
+[[1436    1]
+ [  58  102]]
+accuracy score is: 0.963055729492799
+precision score is: 0.9902912621359223
+recall score is: 0.6375
+f1 score is: 0.7756653992395437
+roc_auc score is: 0.9978253305497564
+average_precision score is: 0.9789892044165103
+
+The scores for test set:
+[[479   1]
+ [ 20  33]]
+accuracy score is: 0.9606003752345216
+precision score is: 0.9705882352941176
+recall score is: 0.6226415094339622
+f1 score is: 0.7586206896551724
+roc_auc score is: 0.966745283018868
+average_precision score is: 0.8711260762292521
+
+The dummies scores on test set:
+The most_frequent dummy:
+[[480   0]
+ [ 53   0]]
+accuracy score is: 0.900562851782364
+precision score is: 0.0
+recall score is: 0.0
+f1 score is: 0.0
+roc_auc score is: No probability available
+average_precision score is: No probability available
+The stratified dummy:
+[[444  36]
+ [ 49   4]]
+accuracy score is: 0.8405253283302064
+precision score is: 0.1
+recall score is: 0.07547169811320754
+f1 score is: 0.08602150537634408
+roc_auc score is: No probability available
+average_precision score is: No probability available
+The uniform dummy:
+[[276 204]
+ [ 30  23]]
+accuracy score is: 0.5609756097560976
+precision score is: 0.1013215859030837
+recall score is: 0.4339622641509434
+f1 score is: 0.16428571428571428
+roc_auc score is: No probability available
+average_precision score is: No probability available
+
+The Cross validation:
+accuracy:
+[0.9535211267605633, 0.9478873239436619, 0.9492957746478873]
+precision:
+[0.9473684210526315, 0.9487179487179487, 0.96875]
+recall:
+[0.4788732394366197, 0.5774647887323944, 0.5352112676056338]
+f1:
+[0.6355140186915887, 0.7321428571428571, 0.6285714285714286]
+roc_auc:
+[0.9892437567502039, 0.9806255372611254, 0.972183649628601]
+average_precision:
+[0.8724819578292363, 0.8765755390408518, 0.9468176434542486]
+
+
+The number of ones: 213
+The number of zeros: 8158
+Total number of molecules: 8371
+The imbalance ratio: 0.1111111111111111
+#############################################################################
+Amide
+The scoring method for determining the best parameters was f1 scoring
+Grid best score: 0.7852892552876437
+Grid best parameter: {'C': 1, 'gamma': 'scale'}
+
+The scores for train set:
+[[3674   31]
+ [  73  339]]
+accuracy score is: 0.9747388875394705
+precision score is: 0.9162162162162162
+recall score is: 0.8228155339805825
+f1 score is: 0.8670076726342711
+roc_auc score is: 0.9837601378352528
+average_precision score is: 0.9170877780402922
+
+The scores for test set:
+[[1227    9]
+ [  31  106]]
+accuracy score is: 0.9708667152221413
+precision score is: 0.9217391304347826
+recall score is: 0.7737226277372263
+f1 score is: 0.8412698412698413
+roc_auc score is: 0.9659249285427445
+average_precision score is: 0.8843536533944577
+
+The dummies scores on test set:
+The most_frequent dummy:
+[[1236    0]
+ [ 137    0]]
+accuracy score is: 0.9002184996358339
+precision score is: 0.0
+recall score is: 0.0
+f1 score is: 0.0
+roc_auc score is: No probability available
+average_precision score is: No probability available
+The stratified dummy:
+[[1107  129]
+ [ 115   22]]
+accuracy score is: 0.8222869628550619
+precision score is: 0.1456953642384106
+recall score is: 0.16058394160583941
+f1 score is: 0.15277777777777776
+roc_auc score is: No probability available
+average_precision score is: No probability available
+The uniform dummy:
+[[602 634]
+ [ 71  66]]
+accuracy score is: 0.4865258557902403
+precision score is: 0.09428571428571429
+recall score is: 0.48175182481751827
+f1 score is: 0.15770609318996417
+roc_auc score is: No probability available
+average_precision score is: No probability available
+
+The Cross validation:
+accuracy:
+[0.9655737704918033, 0.9584699453551913, 0.9639344262295082]
+precision:
+[0.8896551724137931, 0.8963414634146342, 0.87248322147651]
+recall:
+[0.7377049180327869, 0.6939890710382514, 0.7814207650273224]
+f1:
+[0.8343195266272189, 0.7807807807807808, 0.7999999999999999]
+roc_auc:
+[0.9596882558452029, 0.9764499785999382, 0.9673790067053527]
+average_precision:
+[0.8691569643549706, 0.8926215425874733, 0.8032647074254496]
+
+
+The number of ones: 549
+The number of zeros: 7822
+Total number of molecules: 8371
+The imbalance ratio: 0.1111111111111111
+#############################################################################
+Carbonyl
+The scoring method for determining the best parameters was f1 scoring
+Grid best score: 0.9654472161152767
+Grid best parameter: {'C': 1, 'gamma': 'scale'}
+
+The scores for train set:
+[[3861   61]
+ [  76 2280]]
+accuracy score is: 0.9781777636189869
+precision score is: 0.9739427595044853
+recall score is: 0.967741935483871
+f1 score is: 0.9708324462422825
+roc_auc score is: 0.9939119493969416
+average_precision score is: 0.9889903736796856
+
+The scores for test set:
+[[1282   25]
+ [  29  757]]
+accuracy score is: 0.9741997133301481
+precision score is: 0.9680306905370843
+recall score is: 0.9631043256997456
+f1 score is: 0.9655612244897959
+roc_auc score is: 0.9885817412990533
+average_precision score is: 0.9750976399934442
+
+The dummies scores on test set:
+The most_frequent dummy:
+[[1307    0]
+ [ 786    0]]
+accuracy score is: 0.6244624940277114
+precision score is: 0.0
+recall score is: 0.0
+f1 score is: 0.0
+roc_auc score is: No probability available
+average_precision score is: No probability available
+The stratified dummy:
+[[819 488]
+ [487 299]]
+accuracy score is: 0.5341614906832298
+precision score is: 0.3799237611181703
+recall score is: 0.38040712468193383
+f1 score is: 0.38016528925619836
+roc_auc score is: No probability available
+average_precision score is: No probability available
+The uniform dummy:
+[[656 651]
+ [402 384]]
+accuracy score is: 0.4968944099378882
+precision score is: 0.3710144927536232
+recall score is: 0.48854961832061067
+f1 score is: 0.4217462932454696
+roc_auc score is: No probability available
+average_precision score is: No probability available
+
+The Cross validation:
+accuracy:
+[0.9702615549982085, 0.9777777777777777, 0.9763440860215054]
+precision:
+[0.970106075216972, 0.9675881792183031, 0.9709302325581395]
+recall:
+[0.9599236641221374, 0.956064947468959, 0.9703915950334289]
+f1:
+[0.9639468690702088, 0.9671814671814672, 0.9659145463274124]
+roc_auc:
+[0.9887294543495684, 0.9886175894737361, 0.9856985590061158]
+average_precision:
+[0.9815670171271942, 0.9721420166714055, 0.9791007514783271]
+
+
+The number of ones: 3142
+The number of zeros: 5229
+Total number of molecules: 8371
+The imbalance ratio: 0.6008797093134443
+#############################################################################
+Ester
+The scoring method for determining the best parameters was f1 scoring
+Grid best score: 0.944078064763462
+Grid best parameter: {'C': 1, 'gamma': 'scale'}
+
+The scores for train set:
+[[5003   45]
+ [  59 1171]]
+accuracy score is: 0.983434214718063
+precision score is: 0.9629934210526315
+recall score is: 0.9520325203252032
+f1 score is: 0.9574816026165168
+roc_auc score is: 0.9944054153299061
+average_precision score is: 0.9860276300534353
+
+The scores for test set:
+[[1665   18]
+ [  21  389]]
+accuracy score is: 0.9813664596273292
+precision score is: 0.9557739557739557
+recall score is: 0.948780487804878
+f1 score is: 0.9522643818849448
+roc_auc score is: 0.9897931973972146
+average_precision score is: 0.974450669441556
+
+The dummies scores on test set:
+The most_frequent dummy:
+[[1683    0]
+ [ 410    0]]
+accuracy score is: 0.8041089345437171
+precision score is: 0.0
+recall score is: 0.0
+f1 score is: 0.0
+roc_auc score is: No probability available
+average_precision score is: No probability available
+The stratified dummy:
+[[1350  333]
+ [ 323   87]]
+accuracy score is: 0.6865742952699474
+precision score is: 0.20714285714285716
+recall score is: 0.2121951219512195
+f1 score is: 0.20963855421686747
+roc_auc score is: No probability available
+average_precision score is: No probability available
+The uniform dummy:
+[[854 829]
+ [216 194]]
+accuracy score is: 0.5007166746297181
+precision score is: 0.18963831867057673
+recall score is: 0.47317073170731705
+f1 score is: 0.2707606420097697
+roc_auc score is: No probability available
+average_precision score is: No probability available
+
+The Cross validation:
+accuracy:
+[0.9767108563238982, 0.9741935483870968, 0.9806451612903225]
+precision:
+[0.9586466165413534, 0.9558011049723757, 0.9479553903345725]
+recall:
+[0.9378427787934186, 0.9432234432234432, 0.9378427787934186]
+f1:
+[0.9349220898258479, 0.9494949494949494, 0.9510618651892889]
+roc_auc:
+[0.9886701730717216, 0.991883116883117, 0.9786595876996156]
+average_precision:
+[0.969450935088021, 0.9781771153478215, 0.9711374227381104]
+
+
+The number of ones: 1640
+The number of zeros: 6731
+Total number of molecules: 8371
+The imbalance ratio: 0.24364878918437083
+#############################################################################
+Imine
+The scoring method for determining the best parameters was f1 scoring
+Grid best score: 0.8473192864099579
+Grid best parameter: {'C': 1, 'gamma': 'scale'}
+
+The scores for train set:
+[[2267    1]
+ [  61  191]]
+accuracy score is: 0.9753968253968254
+precision score is: 0.9947916666666666
+recall score is: 0.7579365079365079
+f1 score is: 0.8603603603603603
+roc_auc score is: 0.99576929537247
+average_precision score is: 0.9838227679572682
+
+The scores for test set:
+[[749   7]
+ [ 22  62]]
+accuracy score is: 0.9654761904761905
+precision score is: 0.8985507246376812
+recall score is: 0.7380952380952381
+f1 score is: 0.8104575163398693
+roc_auc score is: 0.942113882590073
+average_precision score is: 0.8526997843890457
+
+The dummies scores on test set:
+The most_frequent dummy:
+[[756   0]
+ [ 84   0]]
+accuracy score is: 0.9
+precision score is: 0.0
+recall score is: 0.0
+f1 score is: 0.0
+roc_auc score is: No probability available
+average_precision score is: No probability available
+The stratified dummy:
+[[690  66]
+ [ 77   7]]
+accuracy score is: 0.8297619047619048
+precision score is: 0.0958904109589041
+recall score is: 0.08333333333333333
+f1 score is: 0.089171974522293
+roc_auc score is: No probability available
+average_precision score is: No probability available
+The uniform dummy:
+[[397 359]
+ [ 39  45]]
+accuracy score is: 0.5261904761904762
+precision score is: 0.11138613861386139
+recall score is: 0.5357142857142857
+f1 score is: 0.18442622950819673
+roc_auc score is: No probability available
+average_precision score is: No probability available
+
+The Cross validation:
+accuracy:
+[0.9714285714285714, 0.9696428571428571, 0.9758928571428571]
+precision:
+[0.9634146341463414, 0.978021978021978, 0.9879518072289156]
+recall:
+[0.7767857142857143, 0.6964285714285714, 0.7232142857142857]
+f1:
+[0.8410256410256409, 0.8042328042328042, 0.8737864077669905]
+roc_auc:
+[0.9745960884353739, 0.9587762188208616, 0.9541082057823129]
+average_precision:
+[0.8826623285632275, 0.8919827990634155, 0.8986025725486417]
+
+
+The number of ones: 336
+The number of zeros: 8035
+Total number of molecules: 8371
+The imbalance ratio: 0.1111111111111111
+#############################################################################
+Nitrile
+The scoring method for determining the best parameters was f1 scoring
+Grid best score: 0.0
+Grid best parameter: {'C': 1, 'gamma': 'scale'}
+
+The scores for train set:
+[[2457    0]
+ [ 270    3]]
+accuracy score is: 0.9010989010989011
+precision score is: 1.0
+recall score is: 0.01098901098901099
+f1 score is: 0.02173913043478261
+roc_auc score is: 0.9819756962614106
+average_precision score is: 0.9200235437661113
+
+The scores for test set:
+[[819   0]
+ [ 91   0]]
+accuracy score is: 0.9
+precision score is: 0.0
+recall score is: 0.0
+f1 score is: 0.0
+roc_auc score is: 0.7986555568973152
+average_precision score is: 0.37980520955023334
+
+The dummies scores on test set:
+The most_frequent dummy:
+[[819   0]
+ [ 91   0]]
+accuracy score is: 0.9
+precision score is: 0.0
+recall score is: 0.0
+f1 score is: 0.0
+roc_auc score is: No probability available
+average_precision score is: No probability available
+The stratified dummy:
+[[722  97]
+ [ 84   7]]
+accuracy score is: 0.8010989010989011
+precision score is: 0.0673076923076923
+recall score is: 0.07692307692307693
+f1 score is: 0.0717948717948718
+roc_auc score is: No probability available
+average_precision score is: No probability available
+The uniform dummy:
+[[397 422]
+ [ 52  39]]
+accuracy score is: 0.47912087912087914
+precision score is: 0.08459869848156182
+recall score is: 0.42857142857142855
+f1 score is: 0.14130434782608695
+roc_auc score is: No probability available
+average_precision score is: No probability available
+
+The Cross validation:
+accuracy:
+[0.899505766062603, 0.9002473206924979, 0.9002473206924979]
+precision:
+[0.0, 0.0, 0.0]
+recall:
+[0.0, 0.0, 0.0]
+f1:
+[0.0, 0.032520325203252036, 0.0]
+roc_auc:
+[0.7709947156668469, 0.8118775164229709, 0.8305179668816033]
+average_precision:
+[0.37643201101788165, 0.3410398393701742, 0.3080024655294945]
+
+
+The number of ones: 364
+The number of zeros: 8007
+Total number of molecules: 8371
+The imbalance ratio: 0.1111111111111111
+#############################################################################
+Nitro
+The scoring method for determining the best parameters was f1 scoring
+Grid best score: 0.8928990054417227
+Grid best parameter: {'C': 1, 'gamma': 'scale'}
+
+The scores for train set:
+[[3068   10]
+ [  38  304]]
+accuracy score is: 0.9859649122807017
+precision score is: 0.9681528662420382
+recall score is: 0.8888888888888888
+f1 score is: 0.926829268292683
+roc_auc score is: 0.992314824314414
+average_precision score is: 0.9769454540716244
+
+The scores for test set:
+[[1020    6]
+ [  15   99]]
+accuracy score is: 0.9815789473684211
+precision score is: 0.9428571428571428
+recall score is: 0.868421052631579
+f1 score is: 0.904109589041096
+roc_auc score is: 0.9870130980472623
+average_precision score is: 0.9648191225160282
+
+The dummies scores on test set:
+The most_frequent dummy:
+[[1026    0]
+ [ 114    0]]
+accuracy score is: 0.9
+precision score is: 0.0
+recall score is: 0.0
+f1 score is: 0.0
+roc_auc score is: No probability available
+average_precision score is: No probability available
+The stratified dummy:
+[[935  91]
+ [ 98  16]]
+accuracy score is: 0.8342105263157895
+precision score is: 0.14953271028037382
+recall score is: 0.14035087719298245
+f1 score is: 0.14479638009049772
+roc_auc score is: No probability available
+average_precision score is: No probability available
+The uniform dummy:
+[[504 522]
+ [ 62  52]]
+accuracy score is: 0.48771929824561405
+precision score is: 0.09059233449477352
+recall score is: 0.45614035087719296
+f1 score is: 0.1511627906976744
+roc_auc score is: No probability available
+average_precision score is: No probability available
+
+The Cross validation:
+accuracy:
+[0.9776315789473684, 0.9855263157894737, 0.9835526315789473]
+precision:
+[0.9432624113475178, 0.9202898550724637, 0.951048951048951]
+recall:
+[0.8552631578947368, 0.8552631578947368, 0.8881578947368421]
+f1:
+[0.9178082191780822, 0.89198606271777, 0.9090909090909091]
+roc_auc:
+[0.9826581255771006, 0.9686970991074176, 0.9827543090181593]
+average_precision:
+[0.9561188537510764, 0.9321792726977542, 0.9538701819825582]
+
+
+The number of ones: 456
+The number of zeros: 7915
+Total number of molecules: 8371
+The imbalance ratio: 0.1111111111111111
+#############################################################################
+Non-aromatic Ether
+The scoring method for determining the best parameters was f1 scoring
+Grid best score: 0.8750654150365683
+Grid best parameter: {'C': 1, 'gamma': 'scale'}
+
+The scores for train set:
+[[5265   32]
+ [ 126  855]]
+accuracy score is: 0.9748327492832112
+precision score is: 0.963923337091319
+recall score is: 0.8715596330275229
+f1 score is: 0.9154175588865097
+roc_auc score is: 0.9880208384450875
+average_precision score is: 0.9680896334920537
+
+The scores for test set:
+[[1747   19]
+ [  60  267]]
+accuracy score is: 0.9622551361681796
+precision score is: 0.9335664335664335
+recall score is: 0.8165137614678899
+f1 score is: 0.8711256117455138
+roc_auc score is: 0.9758866943038916
+average_precision score is: 0.9310249347484267
+
+The dummies scores on test set:
+The most_frequent dummy:
+[[1766    0]
+ [ 327    0]]
+accuracy score is: 0.8437649307214524
+precision score is: 0.0
+recall score is: 0.0
+f1 score is: 0.0
+roc_auc score is: No probability available
+average_precision score is: No probability available
+The stratified dummy:
+[[1472  294]
+ [ 267   60]]
+accuracy score is: 0.7319636884854276
+precision score is: 0.1694915254237288
+recall score is: 0.1834862385321101
+f1 score is: 0.1762114537444934
+roc_auc score is: No probability available
+average_precision score is: No probability available
+The uniform dummy:
+[[921 845]
+ [168 159]]
+accuracy score is: 0.5160057333970377
+precision score is: 0.15836653386454183
+recall score is: 0.48623853211009177
+f1 score is: 0.23891810668670171
+roc_auc score is: No probability available
+average_precision score is: No probability available
+
+The Cross validation:
+accuracy:
+[0.9591544249372984, 0.967741935483871, 0.9688172043010753]
+precision:
+[0.9365482233502538, 0.9293193717277487, 0.9399477806788512]
+recall:
+[0.7821100917431193, 0.8463302752293578, 0.8165137614678899]
+f1:
+[0.8867235079171741, 0.8807785888077859, 0.8658536585365854]
+roc_auc:
+[0.9655213385535363, 0.977834916947924, 0.9807403755466004]
+average_precision:
+[0.9271035779557312, 0.9479000115074842, 0.9425568262269834]
+
+
+The number of ones: 1308
+The number of zeros: 7063
+Total number of molecules: 8371
+The imbalance ratio: 0.18519042899617727
+#############################################################################
+Non-aromatic Halide
+The scoring method for determining the best parameters was f1 scoring
+Grid best score: 0.6112826203420374
+Grid best parameter: {'C': 1, 'gamma': 'scale'}
+
+The scores for train set:
+[[5433   13]
+ [ 377  455]]
+accuracy score is: 0.9378783051927365
+precision score is: 0.9722222222222222
+recall score is: 0.546875
+f1 score is: 0.7
+roc_auc score is: 0.9579814666374756
+average_precision score is: 0.8820459932518206
+
+The scores for test set:
+[[1810    5]
+ [ 159  119]]
+accuracy score is: 0.9216435738174868
+precision score is: 0.9596774193548387
+recall score is: 0.42805755395683454
+f1 score is: 0.592039800995025
+roc_auc score is: 0.9212695958935331
+average_precision score is: 0.7739058029838399
+
+The dummies scores on test set:
+The most_frequent dummy:
+[[1815    0]
+ [ 278    0]]
+accuracy score is: 0.8671763019589106
+precision score is: 0.0
+recall score is: 0.0
+f1 score is: 0.0
+roc_auc score is: No probability available
+average_precision score is: No probability available
+The stratified dummy:
+[[1594  221]
+ [ 242   36]]
+accuracy score is: 0.7787864309603441
+precision score is: 0.14007782101167315
+recall score is: 0.12949640287769784
+f1 score is: 0.13457943925233645
+roc_auc score is: No probability available
+average_precision score is: No probability available
+The uniform dummy:
+[[897 918]
+ [136 142]]
+accuracy score is: 0.49641662685140947
+precision score is: 0.1339622641509434
+recall score is: 0.5107913669064749
+f1 score is: 0.21225710014947682
+roc_auc score is: No probability available
+average_precision score is: No probability available
+
+The Cross validation:
+accuracy:
+[0.9186671443926908, 0.9283154121863799, 0.9254480286738351]
+precision:
+[0.918918918918919, 0.9067357512953368, 0.9651162790697675]
+recall:
+[0.4837837837837838, 0.5297297297297298, 0.3810810810810811]
+f1:
+[0.6112115732368897, 0.6040515653775321, 0.6447140381282495]
+roc_auc:
+[0.9143831563905914, 0.908850792941702, 0.915166406075497]
+average_precision:
+[0.777619378489823, 0.7286836183475018, 0.8068436241389266]
+
+
+The number of ones: 1110
+The number of zeros: 7261
+Total number of molecules: 8371
+The imbalance ratio: 0.15287150530229995
+#############################################################################
+Non-aromatic Ketone
+The scoring method for determining the best parameters was f1 scoring
+Grid best score: 0.7189423698510514
+Grid best parameter: {'C': 1, 'gamma': 'scale'}
+
+The scores for train set:
+[[2670    9]
+ [  93  205]]
+accuracy score is: 0.9657373194491098
+precision score is: 0.9579439252336449
+recall score is: 0.6879194630872483
+f1 score is: 0.80078125
+roc_auc score is: 0.9891287192706885
+average_precision score is: 0.9522761640243863
+
+The scores for test set:
+[[890   4]
+ [ 39  60]]
+accuracy score is: 0.9566968781470292
+precision score is: 0.9375
+recall score is: 0.6060606060606061
+f1 score is: 0.736196319018405
+roc_auc score is: 0.9453596366348045
+average_precision score is: 0.841920387844879
+
+The dummies scores on test set:
+The most_frequent dummy:
+[[894   0]
+ [ 99   0]]
+accuracy score is: 0.9003021148036254
+precision score is: 0.0
+recall score is: 0.0
+f1 score is: 0.0
+roc_auc score is: No probability available
+average_precision score is: No probability available
+The stratified dummy:
+[[808  86]
+ [ 91   8]]
+accuracy score is: 0.8217522658610272
+precision score is: 0.0851063829787234
+recall score is: 0.08080808080808081
+f1 score is: 0.08290155440414508
+roc_auc score is: No probability available
+average_precision score is: No probability available
+The uniform dummy:
+[[458 436]
+ [ 54  45]]
+accuracy score is: 0.5065458207452165
+precision score is: 0.09355509355509356
+recall score is: 0.45454545454545453
+f1 score is: 0.15517241379310345
+roc_auc score is: No probability available
+average_precision score is: No probability available
+
+The Cross validation:
+accuracy:
+[0.959214501510574, 0.9591836734693877, 0.9440665154950869]
+precision:
+[0.8913043478260869, 0.9523809523809523, 0.8681318681318682]
+recall:
+[0.6165413533834586, 0.5909090909090909, 0.5984848484848485]
+f1:
+[0.6940639269406392, 0.7188940092165899, 0.7713004484304932]
+roc_auc:
+[0.9392246358970474, 0.9657786937383915, 0.9511042414065084]
+average_precision:
+[0.8101725730728512, 0.8613316039123239, 0.865547722921586]
+
+
+The number of ones: 397
+The number of zeros: 7974
+Total number of molecules: 8371
+The imbalance ratio: 0.1111111111111111
+#############################################################################
+Sulphur oxide
+The scoring method for determining the best parameters was f1 scoring
+Grid best score: 0.7945646725509425
+Grid best parameter: {'C': 1, 'gamma': 'scale'}
+
+The scores for train set:
+[[1120    1]
+ [  29   95]]
+accuracy score is: 0.9759036144578314
+precision score is: 0.9895833333333334
+recall score is: 0.7661290322580645
+f1 score is: 0.8636363636363636
+roc_auc score is: 0.9834716986561538
+average_precision score is: 0.9627823128980239
+
+The scores for test set:
+[[373   0]
+ [  6  36]]
+accuracy score is: 0.9855421686746988
+precision score is: 1.0
+recall score is: 0.8571428571428571
+f1 score is: 0.923076923076923
+roc_auc score is: 0.9385931316226223
+average_precision score is: 0.9183974787076145
+
+The dummies scores on test set:
+The most_frequent dummy:
+[[373   0]
+ [ 42   0]]
+accuracy score is: 0.8987951807228916
+precision score is: 0.0
+recall score is: 0.0
+f1 score is: 0.0
+roc_auc score is: No probability available
+average_precision score is: No probability available
+The stratified dummy:
+[[334  39]
+ [ 33   9]]
+accuracy score is: 0.8265060240963855
+precision score is: 0.1875
+recall score is: 0.21428571428571427
+f1 score is: 0.19999999999999998
+roc_auc score is: No probability available
+average_precision score is: No probability available
+The uniform dummy:
+[[202 171]
+ [ 23  19]]
+accuracy score is: 0.5325301204819277
+precision score is: 0.1
+recall score is: 0.4523809523809524
+f1 score is: 0.16379310344827588
+roc_auc score is: No probability available
+average_precision score is: No probability available
+
+The Cross validation:
+accuracy:
+[0.9693140794223827, 0.9674502712477396, 0.9746835443037974]
+precision:
+[0.9761904761904762, 0.9428571428571428, 1.0]
+recall:
+[0.7857142857142857, 0.6727272727272727, 0.6727272727272727]
+f1:
+[0.86, 0.7777777777777778, 0.8333333333333334]
+roc_auc:
+[0.9557157200229489, 0.9176341730558598, 0.9562979189485215]
+average_precision:
+[0.8986903592323279, 0.9054961325853003, 0.8957131994651819]
+
+
+The number of ones: 166
+The number of zeros: 8205
+Total number of molecules: 8371
+The imbalance ratio: 0.1111111111111111
+#############################################################################
+Sulphur
+The scoring method for determining the best parameters was f1 scoring
+Grid best score: 0.5761385002568262
+Grid best parameter: {'C': 1, 'gamma': 'scale'}
+
+The scores for train set:
+[[4639    5]
+ [ 280  236]]
+accuracy score is: 0.9447674418604651
+precision score is: 0.979253112033195
+recall score is: 0.4573643410852713
+f1 score is: 0.6235138705416116
+roc_auc score is: 0.9723436592352223
+average_precision score is: 0.8944384975515934
+
+The scores for test set:
+[[1542    6]
+ [  97   75]]
+accuracy score is: 0.9401162790697675
+precision score is: 0.9259259259259259
+recall score is: 0.436046511627907
+f1 score is: 0.5928853754940712
+roc_auc score is: 0.9109635088035576
+average_precision score is: 0.7274204800997425
+
+The dummies scores on test set:
+The most_frequent dummy:
+[[1548    0]
+ [ 172    0]]
+accuracy score is: 0.9
+precision score is: 0.0
+recall score is: 0.0
+f1 score is: 0.0
+roc_auc score is: No probability available
+average_precision score is: No probability available
+The stratified dummy:
+[[1398  150]
+ [ 158   14]]
+accuracy score is: 0.8209302325581396
+precision score is: 0.08536585365853659
+recall score is: 0.08139534883720931
+f1 score is: 0.08333333333333334
+roc_auc score is: No probability available
+average_precision score is: No probability available
+The uniform dummy:
+[[746 802]
+ [ 85  87]]
+accuracy score is: 0.48430232558139535
+precision score is: 0.09786276715410573
+recall score is: 0.5058139534883721
+f1 score is: 0.1639962299717248
+roc_auc score is: No probability available
+average_precision score is: No probability available
+
+The Cross validation:
+accuracy:
+[0.9411508282476024, 0.9424334932402966, 0.9376362843436546]
+precision:
+[0.9550561797752809, 0.9553571428571429, 0.9252336448598131]
+recall:
+[0.41304347826086957, 0.42358078602620086, 0.43231441048034935]
+f1:
+[0.5885885885885885, 0.5696969696969698, 0.5878787878787879]
+roc_auc:
+[0.8914075665655545, 0.8666916319691277, 0.8649313665752683]
+average_precision:
+[0.7205066596297219, 0.691186327705193, 0.662390943399311]
+
+
+The number of ones: 688
+The number of zeros: 7683
+Total number of molecules: 8371
+The imbalance ratio: 0.1111111111111111
+The time values are the following:
+Json preparation time: 57.77728080749512
+CSV preparation time: 727.7884409427643
+Working time: 714.1466436386108
+
+
+THE VARIABLES:
+The range is from: 600 to: 3600
+Resolution: 8
+The state is: gas
+Plain: True
+Derivative: True
+Anti noise applied to derivative: None
+Class weight: False
+The model: SVM
