@@ -52,4 +52,3 @@ the SMILES_SMARTS_string.json file, which must remain intact. Besides the script
 5. Summaries
 The default folder stores the singular summary. However, if users wish to perform a full analysis by running The_analysis.py script, the Summaries are 
 stored in the Summaries folder. Some summaries have been left in the folder for reference.
-#####################################################
