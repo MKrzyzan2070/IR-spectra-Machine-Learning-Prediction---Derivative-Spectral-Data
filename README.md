@@ -5,7 +5,6 @@ Dear User,
 This text provides a concise overview of the code and the instructions 
 for you to obtain the results presented in the article.
 
-#####################################################
 Firstly, let us address the files that users need to run.
 
 The main folder, where the README file is located, 
@@ -23,10 +22,8 @@ of variables on performance, as discussed in the article. The variable names are
 3. Results_Analysis.inpynb
 This Jupyter Notebook script creates almost all the figures present in the article. 
 However, it's important to note that the code itself is stored in the Results_Analysis_Functions.py file.
-#####################################################
 
 
-#####################################################
 Now, let's delve into the individual folders and their contents:
 
 1. Downloading the spectral data from NIST
