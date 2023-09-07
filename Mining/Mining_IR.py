@@ -4,7 +4,7 @@
 
 def mining(state):
     import re
-    doc = open("Download_IR_NIS/All_the_IR", "r")
+    doc = open("Download_IR_NIS/All_the_IR.txt", "r")
     All_IR = doc.readlines()
     doc.close()
 
